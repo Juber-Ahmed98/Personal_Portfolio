@@ -93,6 +93,11 @@ section p a {
 
 .home-image img{
     width: 30vw;
+    transition: 0.5s ease;
+}
+
+.home-image img:hover {
+    transform: scale(1.1);
 }
 
 .home-content h3{
@@ -210,6 +215,13 @@ span {
     text-align: center;
     border: 0.2rem solid var(--bg-color);
     border-radius: 2rem;
+    transition: 0.5s ease;
+}
+
+.skills-container .skills-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.05);
+    box-shadow: 0 0 1rem var(--main-color);
 }
 
 .skills-box i {
